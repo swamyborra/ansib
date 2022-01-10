@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+   -name: creating file
+    file: name=/tmp/file1 state=touch
+  
